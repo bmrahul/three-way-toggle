@@ -1,0 +1,50 @@
+{
+  "name": "three-way-toggle",
+  "version": "0.0.1",
+  "description": "Three way toggle button",
+  "keywords": [
+    "three",
+    "way",
+    "toggle",
+    "switch",
+    "three way toggle switch",
+    "3 way toggle",
+    "3 way toggle swtich"
+  ],
+  "author": {
+    "name": "Vinay Arkasali",
+    "email": "vinayarkasaali@gmail.com",
+    "url": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bmrahul/three-way-toggle.gitnpm "
+  },
+  "peerDependencies": {
+    "@angular/common": "^13.3.0",
+    "@angular/core": "^13.3.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "module": "fesm2015/three-way-toggle.mjs",
+  "es2020": "fesm2020/three-way-toggle.mjs",
+  "esm2020": "esm2020/three-way-toggle.mjs",
+  "fesm2020": "fesm2020/three-way-toggle.mjs",
+  "fesm2015": "fesm2015/three-way-toggle.mjs",
+  "typings": "three-way-toggle.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./three-way-toggle.d.ts",
+      "esm2020": "./esm2020/three-way-toggle.mjs",
+      "es2020": "./fesm2020/three-way-toggle.mjs",
+      "es2015": "./fesm2015/three-way-toggle.mjs",
+      "node": "./fesm2015/three-way-toggle.mjs",
+      "default": "./fesm2020/three-way-toggle.mjs"
+    }
+  },
+  "sideEffects": false
+}
